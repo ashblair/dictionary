@@ -1,0 +1,80 @@
+/*Gtk::Box*/
+#dictionaryMainBox {
+	background-color: white;
+}
+#MessageVBox {
+	background-color: hotpink;
+}
+/*Gtk::Button*/
+#dictionaryDlgCloseButton {
+	color: black;
+	background-color: lightsalmon;
+}
+#MessageCloseButton {
+	color: navy;
+	background-color: lightgreen;
+}
+/*Gtk::ButtonBox*/
+#dictionaryDlgCloseBox {
+	background-color: white;
+}
+/*Gtk::Entry*/
+#patternEntry {
+	color: black;
+	background-color: white;
+}
+/*Gtk::Label*/
+#dictionaryLabel {
+	font-size: large;
+	font-weight: bold;
+	font-style: italic;
+	color: navy;
+	background-color: lightgreen;
+}
+#statusLabel {
+	font-style: italic;
+	font-weight: bold;
+	color: green;
+	background-color: lightyellow;
+}
+#MessageLabel {
+	font-style: italic;
+	font-weight: bold;
+	color: yellow;
+	background-color: red;
+}
+#patternLabel {
+	font-size: small;
+	font-weight: bold;
+	font-style: italic;
+	color: green;
+	background-color: lightgray;
+}
+/*#searchLabel {
+	color: green;
+	background-color: lightyellow;
+}*/
+
+/*Gtk::TextView*/
+#resultsList.view {
+	font-family:'Ubuntu Condensed', 'Arial Narrow Bold', sans-serif, Impact, Haettenschweiler;
+	font-style: italic;
+}
+/*#resultsList.view text {
+	color: black;
+	background-color: white;
+}
+#resultsList.view text selection{
+	color: white;
+	background-color: black;
+}
+
+#dictionaryTextView.view text{
+	color: black;
+	background-color: white;
+}
+
+#dictionaryTextView.view text selection{
+	color: white;
+	background-color: black;
+}*/

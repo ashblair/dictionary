@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Run dictionary
+Comment=A Nemo Work-around
+Exec=/home/ash/Projects/dictionary/dictionary.sh
+Icon=/home/ash/Projects/dictionary/share/icons/small.ico
+Terminal=false
+Type=Application

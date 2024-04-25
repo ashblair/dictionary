@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Launch-dictionary
+Comment=A Nemo Work-around
+Exec=/home/ash/Projects/dictionary/launch.sh
+Icon=/usr/share/pixmaps/vscode.png
+Terminal=false
+Type=Application
+

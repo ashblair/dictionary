@@ -1,0 +1,657 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Apr 25 16:34:52 2024
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 32)
+SRC := src
+# makefile (from 'Makefile', line 22)
+AR = $(FULLCROSS)ar
+# makefile (from 'Makefile', line 35)
+CWD := /home/ash/Projects/dictionary
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# makefile (from 'Makefile', line 64)
+BD_ADDS := 
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/ash/Projects/dictionary
+# makefile (from 'Makefile', line 28)
+RSCCPY := windres -O coff
+# environment
+GDM_LANG = en_US
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# environment
+QT_ACCESSIBILITY = 1
+ 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 43)
+DEBUGFLAG := -ggdb
+# makefile (from 'Makefile', line 62)
+BDIRS := bin src rsc inc bin/dbg bin/rel 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/ash/Projects/dictionary
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 23)
+PKG_CONFIG = $(FULLCROSS)pkg-config
+# makefile (from 'Makefile', line 56)
+ICONFILE := /home/ash/Projects/dictionary/share/icons/small.ico
+# environment
+XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/ash/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+OLDPWD = /home/ash
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 30)
+DBG := dbg
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/ash/.config/Code/CachedData/e170252f762678dec6ca2cc69aba1570769a5d39
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# makefile (from 'Makefile', line 25)
+CPPSTANDARD := -std=c++17
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/ash/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/ash/Projects/dictionary
+# makefile (from 'Makefile', line 80)
+BR_ADDS := 
+# makefile (from 'Makefile', line 5)
+BFDHEAD := elf64-x86-64
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 97)
+SRCS := src/widgets.cpp src/first.cpp src/dictionary.cpp src/trie.cpp src/GUI.cpp
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 94)
+allinBLD := bin/dbg/src/trie.cpp.d bin/dbg/src/dictionary.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/src/first.cpp.d bin/dbg/src/widgets.cpp.o bin/dbg/rsc/parse.dat.o bin/dbg/rsc/dictionary.glade.o bin/dbg/rsc/Webster.txt.o bin/dbg/rsc/style.css.o bin/dbg/dictionary
+# environment
+XDG_SESSION_DESKTOP = cinnamon
+# makefile (from 'bin/dbg/src/first.cpp.d', line 1)
+MAKEFILE_LIST := Makefile bin/dbg/src/trie.cpp.d bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/first.cpp.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 6489
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 79)
+MD_RES :=  [bin/dbg/src_PRESENT]  [bin/dbg/rsc_PRESENT]
+# makefile (from 'Makefile', line 42)
+BLD := bin/dbg
+# environment
+SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1428,unix/ashX:/tmp/.ICE-unix/1428
+# makefile (from 'Makefile', line 34)
+RSC := rsc
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 100)
+DEL_BLD := 
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 84)
+RF_RES := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 95)
+allinRSC := rsc/dictionary.glade rsc/Webster.txt rsc/style.css rsc/parse.dat
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 102)
+OBJS := bin/dbg/src/widgets.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/dictionary.cpp.o bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/rsc/dictionary.glade.o bin/dbg/rsc/Webster.txt.o bin/dbg/rsc/style.css.o bin/dbg/rsc/parse.dat.o
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 57)
+USETERMINAL := false
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_US
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 91)
+IDIRS := -Iinc
+# environment
+CINNAMON_VERSION = 6.0.4
+# makefile (from 'Makefile', line 29)
+REL := rel
+# makefile (from 'Makefile', line 27)
+OBJCPY := ld -r -b binary
+# makefile (from 'Makefile', line 104)
+RUN_DT := dictionary.desktop
+# makefile (from 'Makefile', line 85)
+RD_RES := 
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 33)
+INC := inc
+# environment
+XDG_SEAT = seat0
+# makefile (from 'Makefile', line 59)
+DIRFILE := /home/ash/Projects/dictionary/dir.txt
+# makefile (from 'Makefile', line 78)
+ADIRS := 
+# environment
+XDG_CURRENT_DESKTOP = X-Cinnamon
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = cinnamon
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = ash
+# makefile (from 'Makefile', line 96)
+allinSRC := src/widgets.cpp src/first.cpp src/dictionary.cpp src/trie.cpp src/GUI.cpp
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /home/ash/Projects/dictionary/launch.desktop
+# makefile (from 'Makefile', line 54)
+EXE := dictionary
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = :0
+# environment
+USER = ash
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'Makefile', line 58)
+LOGFILE := /home/ash/Projects/dictionary/log.txt
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6470
+# makefile (from 'Makefile', line 93)
+allinBIN := bin/dbg/src/trie.cpp.d bin/dbg/src/dictionary.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/src/first.cpp.d bin/dbg/src/widgets.cpp.o bin/dbg/rsc/parse.dat.o bin/dbg/rsc/dictionary.glade.o bin/dbg/rsc/Webster.txt.o bin/dbg/rsc/style.css.o bin/dbg/dictionary  
+# makefile (from 'Makefile', line 46)
+CXX_FLAGS := -std=c++17  -ggdb
+# environment
+_ = /usr/bin/code
+# makefile (from 'Makefile', line 31)
+BIN := bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 48)
+CFLAGS := -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/x86_64-linux-gnu/giomm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pangomm-1.4 -I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'Makefile', line 49)
+LIBRARIES := -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lgtk-3 -lgdk-3 -latk-1.0 -lcairo-gobject -lgio-2.0 -lpangomm-1.4 -lglibmm-2.4 -lcairomm-1.0 -lsigc-2.0 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -lcairo -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lepoxy -lGLU
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 37)
+ACT_ONS := src rsc
+# environment
+HOME = /home/ash
+# makefile (from 'Makefile', line 74)
+ODIRS := bin/dbg/src bin/dbg/rsc
+# makefile (from 'Makefile', line 63)
+BD_CHK :=  [bin_exists]  [src_exists]  [rsc_exists]  [inc_exists]  [bin/dbg_exists]  [bin/rel_exists]
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-29c20e0f-1.88-main.sock
+# environment
+XDG_SESSION_ID = c2
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 99)
+DEPS := bin/dbg/src/trie.cpp.d bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/first.cpp.d
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 21)
+LD = $(FULLCROSS)ld
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/ash
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 24)
+CXX := g++
+# makefile (from 'Makefile', line 20)
+CC = $(FULLCROSS)gcc
+# makefile (from 'Makefile', line 105)
+RUN_SH := dictionary.sh
+# environment
+GDMSESSION = cinnamon
+# variable set hash-table stats:
+# Load=142/1024=14%, Rehash=0, Collisions=35/416=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 2048, inode 9317903): No files, no impossibilities so far.
+# . (device 2048, inode 9317847): 24 files, no impossibilities.
+# rsc (device 2048, inode 9317879): No files, no impossibilities so far.
+
+# 24 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+bin/dbg/rsc/%.o: rsc/%
+#  recipe to execute (from 'Makefile', line 156):
+	@if [ $(suffix $<) = ".rc" ]; then \
+	$(RSCCPY) $< $@ ; \
+	else \
+	$(OBJCPY) $< -o $@ ; fi ;
+	@echo resource $< made into object $@ >> $(LOGFILE) ;
+
+bin/dbg/src/%.o: src/%
+#  recipe to execute (from 'Makefile', line 163):
+	@$(CXX) $(IDIRS) $< -MM -MT '$@' -MF $(subst .o,.d,$@)
+	@#removing source file from depends file (sed script w/out slash & w/ double quotes for variable expansion):
+	@sed -i "s| $<||g" $(subst .o,.d,$@)
+	@$(CXX) $(CXX_FLAGS) $(IDIRS) $(CFLAGS) -c $< -o $@
+	@echo new object + depend file compiled [$@ + .d] due to [$?] >> $(LOGFILE)
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+bin/dbg/src/trie.cpp.o: inc/first.hpp inc/trie.hpp inc/AVL_c.hpp inc/avlExceptions.hpp inc/vector_c.hpp inc/dictExceptions.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+inc/trie.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+compile: prepbld make_exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+ 
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 118):
+	@printf \# > $(RUN_DT)
+	@echo !/usr/bin/env xdg-open >> $(RUN_DT)
+	@echo [Desktop Entry] >> $(RUN_DT)
+	@echo Name=Run $(EXE) >> $(RUN_DT)
+	@echo Comment=A Nemo Work-around >> $(RUN_DT)
+	@echo Exec=$(CWD)/$(EXE).sh >> $(RUN_DT)
+	@echo Icon=$(ICONFILE) >> $(RUN_DT)
+	@echo Terminal=$(USETERMINAL) >> $(RUN_DT)
+	@echo Type=Application >> $(RUN_DT)
+	@printf \# > $(RUN_SH)
+	@echo !/bin/bash >> $(RUN_SH)
+	@echo cd $(CWD) >> $(RUN_SH)
+	@echo $(EXE_PFX)./$(BLD)/$(EXE) >> $(RUN_SH)
+	@echo echo \"Press 'Enter' To Exit\" >> $(RUN_SH)
+	@echo read extKey >> $(RUN_SH)
+	@chmod a+x $(EXE).*
+	@echo compile completed >> $(LOGFILE)
+
+logsetup:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := logsetup
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=21/77=27%
+#  recipe to execute (from 'Makefile', line 172):
+	@echo BUILD LOG `date` > $(LOGFILE)
+	@echo -----\>Cross Compile Variables: >> $(LOGFILE)
+	@echo [FULLCROSS=$(FULLCROSS)] - [BFDHEAD=$(BFDHEAD)] - [LINK_TYPE=$(LINK_TYPE)] >> $(LOGFILE) 
+	@echo -----\>User Variables: >> $(LOGFILE)
+	@echo [RELEASE_DIR=$(RELEASE_DIR)] - [MAKECMDGOALS=$(MAKECMDGOALS)] - [MAKE_RESTARTS=$(MAKE_RESTARTS)] [MAKEFILE_LIST=$(MAKEFILE_LIST)] >> $(LOGFILE)
+	@echo [necessary build directories=$(ODIRS)] - [checks=$(MD_RES)] >> $(LOGFILE)
+	@if [ -f $(DIRFILE) ]; then \
+	echo -------\>UPDATED THESE FILES AND DIRECTORIES: >> $(LOGFILE) ; \
+	cat $(DIRFILE) >> $(LOGFILE) ; \
+	$(RM) $(DIRFILE) ; fi ; 
+	@echo [CXX=$(CXX)] - [CXX_FLAGS=$(CXX_FLAGS)] >> $(LOGFILE)
+	@echo [BIN=$(BIN)] - [BLD=$(BLD)] - [SRC=$(SRC)] >> $(LOGFILE)
+	@echo [INC=$(INC)] - [IDIRS=$(IDIRS)] - [DBG=$(DBG)] - [REL=$(REL)] >> $(LOGFILE)
+	@echo [RSC=$(RSC)] - [CWD=$(CWD)] >> $(LOGFILE)
+	@echo [CFLAGS=$(CFLAGS)] >> $(LOGFILE)
+	@echo [EXE=$(EXE)] - [ICONFILE=$(ICONFILE)] >> $(LOGFILE)
+	@echo [LIBRARIES=$(LIBRARIES)] >> $(LOGFILE)
+	@echo [USETERMINAL=$(USETERMINAL)] - [LOGFILE=$(LOGFILE)] >> $(LOGFILE)
+	@echo [DEBUGFLAG=$(DEBUGFLAG)] >> $(LOGFILE)
+	@echo -----\>Calculated/Environmental Variables: >> $(LOGFILE)
+	@echo [SRCS=$(SRCS)] >> $(LOGFILE)
+	@echo [DEPS=$(DEPS)] >> $(LOGFILE)
+	@echo [DEL_BLD=$(DEL_BLD)] >> $(LOGFILE)
+	@echo [allinBIN=$(allinBIN)] >> $(LOGFILE)
+	@echo [allinBLD=$(allinBLD)] >> $(LOGFILE)
+	@echo [allinRSC=$(allinRSC)] >> $(LOGFILE)
+	@echo [allinSRC=$(allinSRC)] >> $(LOGFILE)
+	@echo [OBJS=$(OBJS)] >> $(LOGFILE)
+	@echo -----\>MAKE OUTPUT FOLLOWS: >> $(LOGFILE)
+
+# Not a target:
+inc/vector_c.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/dbg/src/dictionary.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-04-03 00:21:17.406168104
+#  File has been updated.
+#  Successfully updated.
+
+bin/dbg/src/widgets.cpp.o: inc/first.hpp inc/GUI.hpp inc/widgets.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/dbg/src/widgets.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-04-03 00:21:15.354183496
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+bin/dbg/src/trie.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-04-17 02:57:34.099905948
+#  File has been updated.
+#  Successfully updated.
+
+bin/dbg/src/GUI.cpp.o: inc/first.hpp inc/widgets.hpp inc/GUI.hpp inc/trie.hpp inc/AVL_c.hpp inc/avlExceptions.hpp inc/vector_c.hpp inc/dictExceptions.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2024-03-17 18:48:51.663890121
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+bin/dbg/src/first.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-03-29 20:28:30.819567199
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 138):
+	@$(RM) $(allinBIN)
+	@echo deleted $(words $(allinBIN)) files [$(allinBIN)] >> $(LOGFILE)
+
+# Not a target:
+inc/widgets.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+prepbld:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 143):
+	@$(RM) $(DEL_BLD)
+	@echo deleted $(words $(DEL_BLD)) build files [$(DEL_BLD)] >> $(LOGFILE)
+
+# Not a target:
+bin/dbg/rsc/Webster.txt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+inc/avlExceptions.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/dbg/rsc/dictionary.glade.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: logsetup compile
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/69=0%
+#  recipe to execute (from 'Makefile', line 109):
+	@echo all completed >> $(LOGFILE)
+
+run: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 113):
+	$(EXE_PFX)./$(BLD)/$(EXE)
+	@echo run completed >> $(LOGFILE)
+
+# Not a target:
+inc/first.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/dbg/dictionary: bin/dbg/src/widgets.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/dictionary.cpp.o bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/rsc/dictionary.glade.o bin/dbg/rsc/Webster.txt.o bin/dbg/rsc/style.css.o bin/dbg/rsc/parse.dat.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 151):
+	@$(CXX) $^ -o $@ $(LIBRARIES)
+	@chmod a+x $(BLD)/$(EXE)
+	@echo linked all objects into $@ >> $(LOGFILE)
+
+# Not a target:
+bin/dbg/rsc/style.css.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+logclear:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 204):
+	@$(RM) $(LOGFILE)
+
+# Not a target:
+inc/GUI.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/dbg/src/dictionary.cpp.o: inc/first.hpp inc/GUI.hpp inc/widgets.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/dbg/src/first.cpp.o: inc/first.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+PHONY: prepbld
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+make_exe: bin/dbg/dictionary
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 148):
+	@echo make_exe completed >> $(LOGFILE)
+
+# Not a target:
+inc/dictExceptions.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/dbg/rsc/parse.dat.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all run compile clean make_exe logsetup logclear
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+inc/AVL_c.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/dbg/src/GUI.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2024-04-17 02:57:36.631899541
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=36/1024=4%, Rehash=0, Collisions=0/116=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 65 / storage = 928 B / avg = 14 B
+# current buf: size = 8162 B / used = 928 B / count = 65 / avg = 14 B
+
+# strcache performance: lookups = 138 / hit rate = 52%
+# hash-table stats:
+# Load=65/8192=1%, Rehash=0, Collisions=0/138=0%
+# Finished Make data base on Thu Apr 25 16:34:52 2024
+
+ 
