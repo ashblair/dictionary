@@ -1,1 +1,1 @@
-/home/ash/Projects/share/templ/AVL_c.hpp
+../../share/templ/AVL_c.hpp

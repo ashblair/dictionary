@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Apr 25 16:34:52 2024
+# Make data base, printed on Sat Apr 27 01:06:43 2024
 
 # Variables
 
@@ -38,7 +38,6 @@ MAKE_COMMAND := make
 GTK3_MODULES = xapp-gtk3-module
 # environment
 QT_ACCESSIBILITY = 1
- 
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # makefile (from 'Makefile', line 43)
@@ -53,6 +52,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 PWD = /home/ash/Projects/dictionary
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
+ 
 # makefile (from 'Makefile', line 23)
 PKG_CONFIG = $(FULLCROSS)pkg-config
 # makefile (from 'Makefile', line 56)
@@ -116,7 +116,7 @@ MAKEFILE_LIST := Makefile bin/dbg/src/trie.cpp.d bin/dbg/src/widgets.cpp.d bin/d
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 6489
+VSCODE_PID = 15076
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -126,7 +126,7 @@ MD_RES :=  [bin/dbg/src_PRESENT]  [bin/dbg/rsc_PRESENT]
 # makefile (from 'Makefile', line 42)
 BLD := bin/dbg
 # environment
-SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1428,unix/ashX:/tmp/.ICE-unix/1428
+SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1425,unix/ashX:/tmp/.ICE-unix/1425
 # makefile (from 'Makefile', line 34)
 RSC := rsc
 # automatic
@@ -234,7 +234,8 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 58)
 LOGFILE := /home/ash/Projects/dictionary/log.txt
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6470
+GIO_LAUNCHED_DESKTOP_FILE_PID = 15057
+ 
 # makefile (from 'Makefile', line 93)
 allinBIN := bin/dbg/src/trie.cpp.d bin/dbg/src/dictionary.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/src/first.cpp.d bin/dbg/src/widgets.cpp.o bin/dbg/rsc/parse.dat.o bin/dbg/rsc/dictionary.glade.o bin/dbg/rsc/Webster.txt.o bin/dbg/rsc/style.css.o bin/dbg/dictionary  
 # makefile (from 'Makefile', line 46)
@@ -305,10 +306,10 @@ GDMSESSION = cinnamon
 # Directories
 
 # src (device 2048, inode 9317903): No files, no impossibilities so far.
-# . (device 2048, inode 9317847): 24 files, no impossibilities.
+# . (device 2048, inode 9317847): 26 files, no impossibilities.
 # rsc (device 2048, inode 9317879): No files, no impossibilities so far.
 
-# 24 files, no impossibilities in 3 directories.
+# 26 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -319,6 +320,7 @@ bin/dbg/rsc/%.o: rsc/%
 	else \
 	$(OBJCPY) $< -o $@ ; fi ;
 	@echo resource $< made into object $@ >> $(LOGFILE) ;
+ 
 
 bin/dbg/src/%.o: src/%
 #  recipe to execute (from 'Makefile', line 163):
@@ -345,7 +347,6 @@ inc/trie.hpp:
 compile: prepbld make_exe
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
- 
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 118):
@@ -413,6 +414,7 @@ logsetup:
 	@echo [USETERMINAL=$(USETERMINAL)] - [LOGFILE=$(LOGFILE)] >> $(LOGFILE)
 	@echo [DEBUGFLAG=$(DEBUGFLAG)] >> $(LOGFILE)
 	@echo -----\>Calculated/Environmental Variables: >> $(LOGFILE)
+ 
 	@echo [SRCS=$(SRCS)] >> $(LOGFILE)
 	@echo [DEPS=$(DEPS)] >> $(LOGFILE)
 	@echo [DEL_BLD=$(DEL_BLD)] >> $(LOGFILE)
@@ -491,6 +493,7 @@ inc/widgets.hpp:
 
 prepbld:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 143):
@@ -502,7 +505,6 @@ bin/dbg/rsc/Webster.txt.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 # Not a target:
 inc/avlExceptions.hpp:
@@ -581,6 +583,7 @@ inc/GUI.hpp:
 bin/dbg/src/dictionary.cpp.o: inc/first.hpp inc/GUI.hpp inc/widgets.hpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 bin/dbg/src/first.cpp.o: inc/first.hpp
@@ -625,7 +628,6 @@ bin/dbg/rsc/parse.dat.o:
 #  File has not been updated.
 
 # Not a target:
- 
 inc/AVL_c.hpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -646,12 +648,12 @@ bin/dbg/src/GUI.cpp.d:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 65 / storage = 928 B / avg = 14 B
-# current buf: size = 8162 B / used = 928 B / count = 65 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 67 / storage = 944 B / avg = 14 B
+# current buf: size = 8162 B / used = 944 B / count = 67 / avg = 14 B
 
-# strcache performance: lookups = 138 / hit rate = 52%
+# strcache performance: lookups = 140 / hit rate = 52%
 # hash-table stats:
-# Load=65/8192=1%, Rehash=0, Collisions=0/138=0%
-# Finished Make data base on Thu Apr 25 16:34:52 2024
+# Load=67/8192=1%, Rehash=0, Collisions=0/140=0%
+# Finished Make data base on Sat Apr 27 01:06:43 2024
 
  
