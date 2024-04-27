@@ -7,6 +7,7 @@ echo [FULLCROSS=] - [BFDHEAD=elf64-x86-64] - [LINK_TYPE=] >> /home/ash/Projects/
 echo -----\>User Variables: >> /home/ash/Projects/dictionary/log.txt
 echo [RELEASE_DIR=] - [MAKECMDGOALS=] - [MAKE_RESTARTS=] [MAKEFILE_LIST=Makefile bin/dbg/src/trie.cpp.d bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/first.cpp.d] >> /home/ash/Projects/dictionary/log.txt
 echo [necessary build directories=bin/dbg/src bin/dbg/rsc] - [checks= [bin/dbg/src_PRESENT]  [bin/dbg/rsc_PRESENT]] >> /home/ash/Projects/dictionary/log.txt
+ 
 if [ -f /home/ash/Projects/dictionary/dir.txt ]; then \
 echo -------\>UPDATED THESE FILES AND DIRECTORIES: >> /home/ash/Projects/dictionary/log.txt ; \
 cat /home/ash/Projects/dictionary/dir.txt >> /home/ash/Projects/dictionary/log.txt ; \
@@ -21,7 +22,6 @@ echo [LIBRARIES=-lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lgtk-3 -lgdk-3 
 echo [USETERMINAL=false] - [LOGFILE=/home/ash/Projects/dictionary/log.txt] >> /home/ash/Projects/dictionary/log.txt
 echo [DEBUGFLAG=-ggdb] >> /home/ash/Projects/dictionary/log.txt
 echo -----\>Calculated/Environmental Variables: >> /home/ash/Projects/dictionary/log.txt
- 
 echo [SRCS=src/widgets.cpp src/first.cpp src/dictionary.cpp src/trie.cpp src/GUI.cpp] >> /home/ash/Projects/dictionary/log.txt
 echo [DEPS=bin/dbg/src/trie.cpp.d bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/first.cpp.d] >> /home/ash/Projects/dictionary/log.txt
 echo [DEL_BLD=] >> /home/ash/Projects/dictionary/log.txt
@@ -33,9 +33,11 @@ echo [OBJS=bin/dbg/src/widgets.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/diction
 echo -----\>MAKE OUTPUT FOLLOWS: >> /home/ash/Projects/dictionary/log.txt
 rm -f 
 echo deleted 0 build files [] >> /home/ash/Projects/dictionary/log.txt
+ 
 g++ -Iinc src/widgets.cpp -MM -MT 'bin/dbg/src/widgets.cpp.o' -MF bin/dbg/src/widgets.cpp.d
 #removing source file from depends file (sed script w/out slash & w/ double quotes for variable expansion):
 sed -i "s| src/widgets.cpp||g" bin/dbg/src/widgets.cpp.d
+ 
 g++ -std=c++17  -ggdb -Iinc -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/x86_64-linux-gnu/giomm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pangomm-1.4 -I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -c src/widgets.cpp -o bin/dbg/src/widgets.cpp.o
 echo new object + depend file compiled [bin/dbg/src/widgets.cpp.o + .d] due to [src/widgets.cpp inc/first.hpp inc/GUI.hpp inc/widgets.hpp] >> /home/ash/Projects/dictionary/log.txt
 g++ -Iinc src/first.cpp -MM -MT 'bin/dbg/src/first.cpp.o' -MF bin/dbg/src/first.cpp.d
@@ -43,6 +45,7 @@ g++ -Iinc src/first.cpp -MM -MT 'bin/dbg/src/first.cpp.o' -MF bin/dbg/src/first.
 sed -i "s| src/first.cpp||g" bin/dbg/src/first.cpp.d
 g++ -std=c++17  -ggdb -Iinc -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/x86_64-linux-gnu/giomm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pangomm-1.4 -I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -c src/first.cpp -o bin/dbg/src/first.cpp.o
 echo new object + depend file compiled [bin/dbg/src/first.cpp.o + .d] due to [src/first.cpp inc/first.hpp] >> /home/ash/Projects/dictionary/log.txt
+ 
 g++ -Iinc src/dictionary.cpp -MM -MT 'bin/dbg/src/dictionary.cpp.o' -MF bin/dbg/src/dictionary.cpp.d
 #removing source file from depends file (sed script w/out slash & w/ double quotes for variable expansion):
 sed -i "s| src/dictionary.cpp||g" bin/dbg/src/dictionary.cpp.d
@@ -52,14 +55,16 @@ echo new object + depend file compiled [bin/dbg/src/dictionary.cpp.o + .d] due t
 g++ -Iinc src/trie.cpp -MM -MT 'bin/dbg/src/trie.cpp.o' -MF bin/dbg/src/trie.cpp.d
 #removing source file from depends file (sed script w/out slash & w/ double quotes for variable expansion):
 sed -i "s| src/trie.cpp||g" bin/dbg/src/trie.cpp.d
+ 
 g++ -std=c++17  -ggdb -Iinc -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/x86_64-linux-gnu/giomm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pangomm-1.4 -I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -c src/trie.cpp -o bin/dbg/src/trie.cpp.o
 echo new object + depend file compiled [bin/dbg/src/trie.cpp.o + .d] due to [src/trie.cpp inc/first.hpp inc/trie.hpp inc/AVL_c.hpp inc/avlExceptions.hpp inc/vector_c.hpp inc/dictExceptions.hpp] >> /home/ash/Projects/dictionary/log.txt
- 
 g++ -Iinc src/GUI.cpp -MM -MT 'bin/dbg/src/GUI.cpp.o' -MF bin/dbg/src/GUI.cpp.d
 #removing source file from depends file (sed script w/out slash & w/ double quotes for variable expansion):
 sed -i "s| src/GUI.cpp||g" bin/dbg/src/GUI.cpp.d
 g++ -std=c++17  -ggdb -Iinc -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/x86_64-linux-gnu/giomm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pangomm-1.4 -I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -c src/GUI.cpp -o bin/dbg/src/GUI.cpp.o
+ 
 echo new object + depend file compiled [bin/dbg/src/GUI.cpp.o + .d] due to [src/GUI.cpp inc/first.hpp inc/widgets.hpp inc/GUI.hpp inc/trie.hpp inc/AVL_c.hpp inc/avlExceptions.hpp inc/vector_c.hpp inc/dictExceptions.hpp] >> /home/ash/Projects/dictionary/log.txt
+ 
 if [ .glade = ".rc" ]; then \
 windres -O coff rsc/dictionary.glade bin/dbg/rsc/dictionary.glade.o ; \
 else \
@@ -71,6 +76,7 @@ windres -O coff rsc/Webster.txt bin/dbg/rsc/Webster.txt.o ; \
 else \
 ld -r -b binary rsc/Webster.txt -o bin/dbg/rsc/Webster.txt.o ; fi ;
 echo resource rsc/Webster.txt made into object bin/dbg/rsc/Webster.txt.o >> /home/ash/Projects/dictionary/log.txt ;
+ 
 if [ .css = ".rc" ]; then \
 windres -O coff rsc/style.css bin/dbg/rsc/style.css.o ; \
 else \
@@ -87,12 +93,12 @@ g++ bin/dbg/src/widgets.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/dictionary.cpp
 chmod a+x bin/dbg/dictionary
 echo linked all objects into bin/dbg/dictionary >> /home/ash/Projects/dictionary/log.txt
 echo make_exe completed >> /home/ash/Projects/dictionary/log.txt
- 
 printf \# > dictionary.desktop
 echo !/usr/bin/env xdg-open >> dictionary.desktop
 echo [Desktop Entry] >> dictionary.desktop
 echo Name=Run dictionary >> dictionary.desktop
 echo Comment=A Nemo Work-around >> dictionary.desktop
+ 
 echo Exec=/home/ash/Projects/dictionary/dictionary.sh >> dictionary.desktop
 echo Icon=/home/ash/Projects/dictionary/share/icons/small.ico >> dictionary.desktop
 echo Terminal=false >> dictionary.desktop

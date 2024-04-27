@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Apr 27 01:06:43 2024
+# Make data base, printed on Sat Apr 27 15:33:50 2024
 
 # Variables
 
@@ -46,13 +46,13 @@ DEBUGFLAG := -ggdb
 BDIRS := bin src rsc inc bin/dbg bin/rel 
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+ 
 # default
 .VARIABLES := 
 # environment
 PWD = /home/ash/Projects/dictionary
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
- 
 # makefile (from 'Makefile', line 23)
 PKG_CONFIG = $(FULLCROSS)pkg-config
 # makefile (from 'Makefile', line 56)
@@ -116,7 +116,7 @@ MAKEFILE_LIST := Makefile bin/dbg/src/trie.cpp.d bin/dbg/src/widgets.cpp.d bin/d
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 15076
+VSCODE_PID = 4352
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -126,7 +126,7 @@ MD_RES :=  [bin/dbg/src_PRESENT]  [bin/dbg/rsc_PRESENT]
 # makefile (from 'Makefile', line 42)
 BLD := bin/dbg
 # environment
-SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1425,unix/ashX:/tmp/.ICE-unix/1425
+SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1430,unix/ashX:/tmp/.ICE-unix/1430
 # makefile (from 'Makefile', line 34)
 RSC := rsc
 # automatic
@@ -234,8 +234,7 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 58)
 LOGFILE := /home/ash/Projects/dictionary/log.txt
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 15057
- 
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4333
 # makefile (from 'Makefile', line 93)
 allinBIN := bin/dbg/src/trie.cpp.d bin/dbg/src/dictionary.cpp.o bin/dbg/src/first.cpp.o bin/dbg/src/widgets.cpp.d bin/dbg/src/dictionary.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/src/first.cpp.d bin/dbg/src/widgets.cpp.o bin/dbg/rsc/parse.dat.o bin/dbg/rsc/dictionary.glade.o bin/dbg/rsc/Webster.txt.o bin/dbg/rsc/style.css.o bin/dbg/dictionary  
 # makefile (from 'Makefile', line 46)
@@ -291,6 +290,7 @@ XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/ash
 # makefile (from 'Makefile', line 24)
 CXX := g++
 # makefile (from 'Makefile', line 20)
+ 
 CC = $(FULLCROSS)gcc
 # makefile (from 'Makefile', line 105)
 RUN_SH := dictionary.sh
@@ -320,7 +320,6 @@ bin/dbg/rsc/%.o: rsc/%
 	else \
 	$(OBJCPY) $< -o $@ ; fi ;
 	@echo resource $< made into object $@ >> $(LOGFILE) ;
- 
 
 bin/dbg/src/%.o: src/%
 #  recipe to execute (from 'Makefile', line 163):
@@ -414,7 +413,6 @@ logsetup:
 	@echo [USETERMINAL=$(USETERMINAL)] - [LOGFILE=$(LOGFILE)] >> $(LOGFILE)
 	@echo [DEBUGFLAG=$(DEBUGFLAG)] >> $(LOGFILE)
 	@echo -----\>Calculated/Environmental Variables: >> $(LOGFILE)
- 
 	@echo [SRCS=$(SRCS)] >> $(LOGFILE)
 	@echo [DEPS=$(DEPS)] >> $(LOGFILE)
 	@echo [DEL_BLD=$(DEL_BLD)] >> $(LOGFILE)
@@ -430,6 +428,7 @@ inc/vector_c.hpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
 # Not a target:
 bin/dbg/src/dictionary.cpp.d:
@@ -453,7 +452,7 @@ bin/dbg/src/widgets.cpp.d:
 # Not a target:
 bin/dbg/src/trie.cpp.d:
 #  Implicit rule search has been done.
-#  Last modified 2024-04-17 02:57:34.099905948
+#  Last modified 2024-04-27 01:07:39.424242687
 #  File has been updated.
 #  Successfully updated.
 
@@ -493,7 +492,6 @@ inc/widgets.hpp:
 
 prepbld:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 143):
@@ -527,6 +525,7 @@ bin/dbg/rsc/dictionary.glade.o:
 all: logsetup compile
 #  Phony target (prerequisite of .PHONY).
 #  Command line target.
+ 
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has been updated.
@@ -583,7 +582,6 @@ inc/GUI.hpp:
 bin/dbg/src/dictionary.cpp.o: inc/first.hpp inc/GUI.hpp inc/widgets.hpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 bin/dbg/src/first.cpp.o: inc/first.hpp
@@ -636,7 +634,7 @@ inc/AVL_c.hpp:
 # Not a target:
 bin/dbg/src/GUI.cpp.d:
 #  Implicit rule search has been done.
-#  Last modified 2024-04-17 02:57:36.631899541
+#  Last modified 2024-04-27 01:07:41.980233351
 #  File has been updated.
 #  Successfully updated.
 
@@ -648,12 +646,13 @@ bin/dbg/src/GUI.cpp.d:
 
 # No general ('VPATH' variable) search path.
 
+ 
 # strcache buffers: 1 (0) / strings = 67 / storage = 944 B / avg = 14 B
 # current buf: size = 8162 B / used = 944 B / count = 67 / avg = 14 B
 
 # strcache performance: lookups = 140 / hit rate = 52%
 # hash-table stats:
 # Load=67/8192=1%, Rehash=0, Collisions=0/140=0%
-# Finished Make data base on Sat Apr 27 01:06:43 2024
+# Finished Make data base on Sat Apr 27 15:33:50 2024
 
  
